@@ -20,7 +20,7 @@ export default function LandingPage() {
         borderRadius="rounded"
         contentWidth="mediumSmall"
         sizing="medium"
-        background="aurora"
+        background="none"
         cardStyle="inset"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="glass"
@@ -41,7 +41,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardCarousel
-      background={{ variant: "gradient-bars" }}
+      background={{ variant: "plain" }}
       title="Quality Truck Repair at Exit 201"
       description="Professional heavy-duty repair services at 3273 US Highway 24, Remington, IN. We're here to keep your fleet running smoothly."
       buttons={[{ text: "Call Now for Immediate Assistance", href: "tel:2192039000" }]}
@@ -123,7 +123,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       text="Contact Exit 201 Truck Repair today for professional assistance."
-      background={{ variant: "gradient-bars" }}
+      background={{ variant: "plain" }}
       useInvertedBackground={false}
       buttons={[
         { text: "Call 219-203-9000", href: "tel:2192039000" },
