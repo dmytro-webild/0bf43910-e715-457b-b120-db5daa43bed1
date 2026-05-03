@@ -58,6 +58,7 @@ export default function LandingPage() {
       description={[
         "Exit 201 Truck Repair LLC is your premier partner for heavy-duty truck maintenance in Remington, IN. Located at 3273 US Highway 24, we are committed to getting you back on the road safely.",        "Our expert team brings years of experience to every repair, ensuring high-quality, professional, and timely service for all commercial trucks."
       ]}
+      useInvertedBackground={false}
     />
   </div>
 
@@ -67,6 +68,7 @@ export default function LandingPage() {
       textboxLayout="split"
       title="Comprehensive Repair Services"
       description="We handle everything from diagnostics to major mechanical repairs."
+      useInvertedBackground={false}
       features={[
         { id: "s1", title: "Engine & Drivetrain", description: "Advanced engine diagnostics and repairs.", tag: "Engine" },
         { id: "s2", title: "Preventive Maintenance", description: "Routine checks to keep your fleet moving.", tag: "Maintenance" },
@@ -82,6 +84,7 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       metrics={[
         { id: "m1", value: "Mon-Sat", description: "8:00am - 7:00pm" },
         { id: "m2", value: "Sunday", description: "9:00am - 5:00pm" },
@@ -95,6 +98,7 @@ export default function LandingPage() {
       cardTitle="Trusted by Drivers"
       cardTag="4.9 Star Average Rating"
       cardAnimation="slide-up"
+      useInvertedBackground={false}
       testimonials={[
         { id: "t1", name: "Fleet Manager", imageSrc: "http://img.b2bpic.net/free-photo/man-working-as-truck-driver_23-2151489873.jpg" },
         { id: "t2", name: "Local Driver", imageSrc: "http://img.b2bpic.net/free-photo/man-with-helmet-warehouse_23-2148886831.jpg" }
@@ -108,6 +112,7 @@ export default function LandingPage() {
       description="Got questions about our services? We have the answers."
       textboxLayout="default"
       faqsAnimation="slide-up"
+      useInvertedBackground={false}
       faqs={[
         { id: "f1", title: "Where is your shop?", content: "3273 US Highway 24, Remington IN 47977" },
         { id: "f2", title: "How can I reach you?", content: "Call us at 219-203-9000 or email exit201repair@gmail.com" }
@@ -119,6 +124,7 @@ export default function LandingPage() {
       <ContactText
       text="Contact Exit 201 Truck Repair today for professional assistance."
       background={{ variant: "gradient-bars" }}
+      useInvertedBackground={false}
       buttons={[
         { text: "Call 219-203-9000", href: "tel:2192039000" },
         { text: "Email exit201repair@gmail.com", href: "mailto:exit201repair@gmail.com" }
