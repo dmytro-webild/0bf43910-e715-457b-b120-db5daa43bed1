@@ -20,7 +20,7 @@ export default function LandingPage() {
         borderRadius="rounded"
         contentWidth="mediumSmall"
         sizing="medium"
-        background="aurora"
+        background="noise"
         cardStyle="inset"
         primaryButtonStyle="primary-glow"
         secondaryButtonStyle="glass"
@@ -46,8 +46,8 @@ export default function LandingPage() {
       description="Professional heavy-duty repair services at 3273 US Highway 24, Remington, IN. We're here to keep your fleet running smoothly."
       buttons={[{ text: "Call Now for Immediate Assistance", href: "tel:2192039000" }]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/one-working-day-modern-automatic-bus-manufacturing-with-unfinished-cars-workers-protective-uniform-automotive-parts-background_645730-282.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/experienced-middle-aged-truck-mechanics-holding-parts-tools-repair-shop-by-truck_342744-1287.jpg" }
+        { imageSrc: "https://img.freepik.com/free-photo/green-semi-truck-with-white-trailer-highway_1150-13456.jpg" },
+        { imageSrc: "https://img.freepik.com/free-photo/truck-maintenance-service-shop_1150-14567.jpg" }
       ]}
     />
   </div>
@@ -100,8 +100,8 @@ export default function LandingPage() {
       cardAnimation="slide-up"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t1", name: "Fleet Manager", imageSrc: "http://img.b2bpic.net/free-photo/man-working-as-truck-driver_23-2151489873.jpg" },
-        { id: "t2", name: "Local Driver", imageSrc: "http://img.b2bpic.net/free-photo/man-with-helmet-warehouse_23-2148886831.jpg" }
+        { id: "t1", name: "Fleet Manager", imageSrc: "https://img.freepik.com/free-photo/truck-driver-smiling_1150-13456.jpg" },
+        { id: "t2", name: "Local Driver", imageSrc: "https://img.freepik.com/free-photo/mechanic-working-on-truck_1150-12345.jpg" }
       ]}
     />
   </div>
