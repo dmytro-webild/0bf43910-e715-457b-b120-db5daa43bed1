@@ -44,7 +44,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       title="Quality Truck Repair at Exit 201"
       description="Professional heavy-duty repair services at 3273 US Highway 24, Remington, IN. We're here to keep your fleet running smoothly."
-      buttons={[{ text: "Call 219-203-9000", href: "tel:2192039000" }]}
+      buttons={[{ text: "Call Now for Immediate Assistance", href: "tel:2192039000" }]}
       mediaItems={[
         { imageSrc: "http://img.b2bpic.net/free-photo/one-working-day-modern-automatic-bus-manufacturing-with-unfinished-cars-workers-protective-uniform-automotive-parts-background_645730-282.jpg" },
         { imageSrc: "http://img.b2bpic.net/free-photo/experienced-middle-aged-truck-mechanics-holding-parts-tools-repair-shop-by-truck_342744-1287.jpg" }
