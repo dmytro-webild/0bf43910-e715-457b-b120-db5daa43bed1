@@ -70,9 +70,9 @@ export default function LandingPage() {
       description="We handle everything from diagnostics to major mechanical repairs."
       useInvertedBackground={false}
       features={[
-        { id: "s1", title: "Engine & Drivetrain", description: "Advanced engine diagnostics and repairs.", tag: "Engine" },
-        { id: "s2", title: "Preventive Maintenance", description: "Routine checks to keep your fleet moving.", tag: "Maintenance" },
-        { id: "s3", title: "Brakes & Tires", description: "Expert braking and tire replacement services.", tag: "Safety" }
+        { id: "s1", title: "Engine & Drivetrain", description: "Advanced engine diagnostics and repairs to restore peak power and efficiency.", tag: "Engine" },
+        { id: "s2", title: "Preventive Maintenance", description: "Routine checks and servicing to minimize downtime and prevent costly roadside breakdowns.", tag: "Maintenance" },
+        { id: "s3", title: "Brakes & Tires", description: "Expert braking and tire replacement services to keep your haul safe and compliant.", tag: "Safety" }
       ]}
     />
   </div>
